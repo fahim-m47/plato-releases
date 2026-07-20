@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.1.0</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.1.0</link><sparkle:version>0.1.0</sparkle:version><sparkle:shortVersionString>0.1.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Mon, 20 Jul 2026 12:33:08 -0700</pubDate><description>&lt;h2&gt;Plato 0.1.0 — first beta&lt;/h2&gt;
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.1.1</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.1.1</link><sparkle:version>0.1.1</sparkle:version><sparkle:shortVersionString>0.1.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Mon, 20 Jul 2026 13:13:06 -0700</pubDate><description>&lt;h2&gt;Plato 0.1.1&lt;/h2&gt;
+
+&lt;p&gt;Small maintenance update. No new features — this release exercises the
+in-app update path so your Plato stays current automatically from here on.&lt;/p&gt;
+
+&lt;p&gt;Your permissions and settings carry over; nothing to re-grant.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.1.1/Plato-0.1.1.zip" type="application/octet-stream" length="4548878" sparkle:edSignature="ZJ08xvKjPtegtwsZ++jHCUQzIGh1y/4ZJfHTIUBoRjhNb59SnZBlNjfy6e48ZTjv2F9Jnx+2xNt2TZfhiCqpAw=="></enclosure></item><item><title>Plato 0.1.0</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.1.0</link><sparkle:version>0.1.0</sparkle:version><sparkle:shortVersionString>0.1.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Mon, 20 Jul 2026 12:33:08 -0700</pubDate><description>&lt;h2&gt;Plato 0.1.0 — first beta&lt;/h2&gt;
 
 &lt;p&gt;Thanks for testing Plato. This is an early build: an on-screen AI
 assistant for macOS that can look at your screen and act on your Mac when
@@ -25,6 +30,6 @@ silently. You never re-download by hand after this first install.&lt;/p&gt;
 
 &lt;h3&gt;Found a bug?&lt;/h3&gt;
 &lt;p&gt;Ping Fahim with what you did, what you expected, and a screenshot.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.1.0/Plato-0.1.0.zip" type="application/octet-stream" length="4548871" sparkle:edSignature="UpRkTEoEOS28kSCd7OfnLMw+ONz+tTlXq67lg52VAXaYEQE61hjMIQZo+3ef/n03uyKOzZ4CWNIqZ+rpE/bHDg=="></enclosure></item></channel></rss><!-- sparkle-signatures:
-edSignature: TYqzwffLECVbGrYVr0QlE0JYvrjbNYju+QN1NUD1sGEMaTzuacbqKyK/sZhzn1L2W/fGa7YgVhET0pPSVl8LBA==
-length: 2429
+edSignature: 0P4871qsggwBVbjeYUWsFvZNYO3kcpQfaR7io4XMKyJalicOyiAuzMSaICU0AvufoJzBPrmKMam0IQtObJ+BDg==
+length: 3347
 -->
