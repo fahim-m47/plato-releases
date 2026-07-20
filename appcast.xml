@@ -1,2 +1,30 @@
-<?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.1.0</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.1.0</link><sparkle:version>0.1.0</sparkle:version><sparkle:shortVersionString>0.1.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Mon, 20 Jul 2026 12:33:08 -0700</pubDate><description>&lt;h2&gt;Plato 0.1.0 — first beta&lt;/h2&gt;
+
+&lt;p&gt;Thanks for testing Plato. This is an early build: an on-screen AI
+assistant for macOS that can look at your screen and act on your Mac when
+you ask. Please supervise it and keep it away from anything high-stakes.&lt;/p&gt;
+
+&lt;h3&gt;First launch&lt;/h3&gt;
+&lt;p&gt;This beta is &lt;strong&gt;not notarized by Apple&lt;/strong&gt;, so macOS warns once
+when you first open it. This is expected — see &lt;code&gt;INSTALL.md&lt;/code&gt; inside
+the DMG for the exact steps (macOS 15+: System Settings → Privacy &amp;amp;
+Security → &lt;strong&gt;Open Anyway&lt;/strong&gt;; macOS 14: right-click → Open).&lt;/p&gt;
+
+&lt;h3&gt;What you need&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;macOS 14 (Sonoma) or newer.&lt;/li&gt;
+  &lt;li&gt;Your own OpenAI and Anthropic API keys — you pay those providers
+      directly. Plato has no backend of its own.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Updates&lt;/h3&gt;
+&lt;p&gt;Plato checks once a day and asks before installing — nothing installs
+silently. You never re-download by hand after this first install.&lt;/p&gt;
+
+&lt;h3&gt;Found a bug?&lt;/h3&gt;
+&lt;p&gt;Ping Fahim with what you did, what you expected, and a screenshot.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.1.0/Plato-0.1.0.zip" type="application/octet-stream" length="4548871" sparkle:edSignature="UpRkTEoEOS28kSCd7OfnLMw+ONz+tTlXq67lg52VAXaYEQE61hjMIQZo+3ef/n03uyKOzZ4CWNIqZ+rpE/bHDg=="></enclosure></item></channel></rss><!-- sparkle-signatures:
+edSignature: TYqzwffLECVbGrYVr0QlE0JYvrjbNYju+QN1NUD1sGEMaTzuacbqKyK/sZhzn1L2W/fGa7YgVhET0pPSVl8LBA==
+length: 2429
+-->
