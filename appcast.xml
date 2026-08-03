@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.1.1</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.1.1</link><sparkle:version>0.1.1</sparkle:version><sparkle:shortVersionString>0.1.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Mon, 20 Jul 2026 13:13:06 -0700</pubDate><description>&lt;h2&gt;Plato 0.1.1&lt;/h2&gt;
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.2.0</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.2.0</link><sparkle:version>0.2.0</sparkle:version><sparkle:shortVersionString>0.2.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Sun, 02 Aug 2026 22:21:24 -0700</pubDate><description>&lt;h2&gt;Plato 0.2.0&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;This is the big one: Plato no longer operates your computer.&lt;/b&gt; It used
+to be able to click and type on your behalf; that entire capability has been
+removed from the app — not switched off, removed. Plato is now a voice partner:
+it talks with you, sees the screen you're talking about, and &lt;i&gt;shows&lt;/i&gt; you
+things instead of doing them.&lt;/p&gt;
+
+&lt;h3&gt;What's new&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Sign in with ChatGPT.&lt;/b&gt; If you already pay for ChatGPT, your
+  subscription now powers Plato directly — no API key needed. An OpenAI API key
+  still works as the alternative, and adding one upgrades transcription and
+  speech to the natural API voices (without one, Plato speaks with the Mac's
+  built-in voice).&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Voice works out of the box.&lt;/b&gt; Hold the push-to-talk key and speak —
+  with no key, transcription happens right on your Mac — and Plato answers out
+  loud with its caption pacing the words.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Pointing.&lt;/b&gt; Ask "where do I export this?" and Plato's cursor glides
+  to the actual button and highlights it while it explains. Pointing is a
+  gesture — it never clicks.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;The original look is back.&lt;/b&gt; The trailing cursor and its caption
+  bubble return to the classic Plato style.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Why the permission scope shrinks&lt;/h3&gt;
+&lt;p&gt;Earlier versions used the Accessibility permission to read and operate your
+apps. That's gone. Accessibility now does exactly one small job: when Plato
+points at something, a single lookup finds the element under that spot so the
+highlight snaps neatly to it. It is never used to press, type, or control
+anything. Screen Recording is still how Plato sees what you're looking at while
+you talk, and the microphone is still just push-to-talk.&lt;/p&gt;
+
+&lt;p&gt;Your existing permission grants and stored keys carry over with this update
+— nothing to re-grant, nothing to re-enter. One more change: Plato is
+OpenAI-only now. If you had added an Anthropic key, it is no longer used.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.2.0/Plato-0.2.0.zip" type="application/octet-stream" length="3964751" sparkle:edSignature="LNtg5twkdqtK2HH1KoHgsp7eoYSa/U7mgs9sZE0EGLCBP9ey/y6ExSV/Yb58wg6NaQo1MuTFTi53TjmI4WKUCQ=="></enclosure></item><item><title>Plato 0.1.1</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.1.1</link><sparkle:version>0.1.1</sparkle:version><sparkle:shortVersionString>0.1.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Mon, 20 Jul 2026 13:13:06 -0700</pubDate><description>&lt;h2&gt;Plato 0.1.1&lt;/h2&gt;
 
 &lt;p&gt;Small maintenance update. No new features — this release exercises the
 in-app update path so your Plato stays current automatically from here on.&lt;/p&gt;
@@ -30,6 +65,6 @@ silently. You never re-download by hand after this first install.&lt;/p&gt;
 
 &lt;h3&gt;Found a bug?&lt;/h3&gt;
 &lt;p&gt;Ping Fahim with what you did, what you expected, and a screenshot.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.1.0/Plato-0.1.0.zip" type="application/octet-stream" length="4548871" sparkle:edSignature="UpRkTEoEOS28kSCd7OfnLMw+ONz+tTlXq67lg52VAXaYEQE61hjMIQZo+3ef/n03uyKOzZ4CWNIqZ+rpE/bHDg=="></enclosure></item></channel></rss><!-- sparkle-signatures:
-edSignature: 0P4871qsggwBVbjeYUWsFvZNYO3kcpQfaR7io4XMKyJalicOyiAuzMSaICU0AvufoJzBPrmKMam0IQtObJ+BDg==
-length: 3347
+edSignature: uTC4VKhUItvwaiwI6bcyWXy+EmPoO03+Rm4983Qseqw10iPatKZKga736Hs5wcV2MM3Nw3Lo/lFlKCHGuCbIBA==
+length: 6164
 -->
