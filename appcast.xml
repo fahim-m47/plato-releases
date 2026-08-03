@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.2.0</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.2.0</link><sparkle:version>0.2.0</sparkle:version><sparkle:shortVersionString>0.2.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Sun, 02 Aug 2026 22:21:24 -0700</pubDate><description>&lt;h2&gt;Plato 0.2.0&lt;/h2&gt;
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.2.1</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.2.1</link><sparkle:version>0.2.1</sparkle:version><sparkle:shortVersionString>0.2.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Sun, 02 Aug 2026 23:50:48 -0700</pubDate><description>&lt;h2&gt;Plato 0.2.1&lt;/h2&gt;
+
+&lt;p&gt;A polish release for the voice experience 0.2.0 introduced.&lt;/p&gt;
+
+&lt;h3&gt;What's improved&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Replies speak in one pass.&lt;/b&gt; Plato now composes its whole answer
+  before speaking, then reads it straight through — no more mid-sentence
+  stalls while the rest of the reply streams in. Consecutive sentences are
+  prepared ahead of time so the voice never pauses between them.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;The spinner tells the truth.&lt;/b&gt; The trailing cursor's little
+  processing spinner now stays up for the entire wait — from the moment you
+  release push-to-talk until the first words are actually audible. Previously
+  it could drop back to the arrow a beat before Plato started speaking.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Captions match the voice.&lt;/b&gt; Each caption appears exactly when its
+  sentence becomes audible and stays up until the audio finishes, even when
+  speech takes a moment to start.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;The cursor retires cleanly after errors.&lt;/b&gt; If a turn fails, the
+  trailing cursor now steps off screen once the error is spoken instead of
+  lingering.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;The classic look, finished.&lt;/b&gt; The trailing cursor is the original
+  art again — with the listening waveform while you hold push-to-talk and the
+  spinning arc while Plato works, exactly like the original.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Permissions, stored keys, and your sign-in all carry over — nothing to
+re-grant or re-enter.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.2.1/Plato-0.2.1.zip" type="application/octet-stream" length="4016273" sparkle:edSignature="SsCyQeg8glEGTZLoKiwZIIFeC+D3hvEftmxHHO/AWjtVHt2BH6Nvl3T1Fshr0hXl4qNPc2J8H1ZAopXP2Kh7Bg=="></enclosure></item><item><title>Plato 0.2.0</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.2.0</link><sparkle:version>0.2.0</sparkle:version><sparkle:shortVersionString>0.2.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Sun, 02 Aug 2026 22:21:24 -0700</pubDate><description>&lt;h2&gt;Plato 0.2.0&lt;/h2&gt;
 
 &lt;p&gt;&lt;b&gt;This is the big one: Plato no longer operates your computer.&lt;/b&gt; It used
 to be able to click and type on your behalf; that entire capability has been
@@ -65,6 +91,6 @@ silently. You never re-download by hand after this first install.&lt;/p&gt;
 
 &lt;h3&gt;Found a bug?&lt;/h3&gt;
 &lt;p&gt;Ping Fahim with what you did, what you expected, and a screenshot.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.1.0/Plato-0.1.0.zip" type="application/octet-stream" length="4548871" sparkle:edSignature="UpRkTEoEOS28kSCd7OfnLMw+ONz+tTlXq67lg52VAXaYEQE61hjMIQZo+3ef/n03uyKOzZ4CWNIqZ+rpE/bHDg=="></enclosure></item></channel></rss><!-- sparkle-signatures:
-edSignature: uTC4VKhUItvwaiwI6bcyWXy+EmPoO03+Rm4983Qseqw10iPatKZKga736Hs5wcV2MM3Nw3Lo/lFlKCHGuCbIBA==
-length: 6164
+edSignature: P/vpzfzEqfUMh9v3DyS3RZSDaQLw1lKT4DXJazrHJ5w/D+tYiJsqzpTIwVtF7BC4tFqOjui2/Fna5mxfTs8cAg==
+length: 8390
 -->
