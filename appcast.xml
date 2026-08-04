@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.2.1</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.2.1</link><sparkle:version>0.2.1</sparkle:version><sparkle:shortVersionString>0.2.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Sun, 02 Aug 2026 23:50:48 -0700</pubDate><description>&lt;h2&gt;Plato 0.2.1&lt;/h2&gt;
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.2.2</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.2.2</link><sparkle:version>0.2.2</sparkle:version><sparkle:shortVersionString>0.2.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Mon, 03 Aug 2026 18:11:30 -0700</pubDate><description>&lt;h2&gt;Plato 0.2.2&lt;/h2&gt;
+
+&lt;p&gt;A fix release for the Settings model picker.&lt;/p&gt;
+
+&lt;h3&gt;What's fixed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;The model picker now lists your account's full catalog.&lt;/b&gt; Plato's
+  model-list request identified itself as an outdated client, so the backend
+  hid every current model and the picker was stuck on GPT-5.4-Mini. Signed-in
+  ChatGPT accounts now see every tier the account exposes — including
+  GPT-5.6 and GPT-5.5. GPT-5.4-Mini remains the fast default.&lt;/li&gt;
+&lt;/ul&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.2.2/Plato-0.2.2.zip" type="application/octet-stream" length="4016566" sparkle:edSignature="+W294Ulp4IsltT8NSK4uQ3/Ork6fxDMO0iPkxqUbgXyX2co1/Iy4Xv8hw0EPE/SxjwT4hT9m0fmLj2tSYPhnBQ=="></enclosure></item><item><title>Plato 0.2.1</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.2.1</link><sparkle:version>0.2.1</sparkle:version><sparkle:shortVersionString>0.2.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Sun, 02 Aug 2026 23:50:48 -0700</pubDate><description>&lt;h2&gt;Plato 0.2.1&lt;/h2&gt;
 
 &lt;p&gt;A polish release for the voice experience 0.2.0 introduced.&lt;/p&gt;
 
@@ -91,6 +102,6 @@ silently. You never re-download by hand after this first install.&lt;/p&gt;
 
 &lt;h3&gt;Found a bug?&lt;/h3&gt;
 &lt;p&gt;Ping Fahim with what you did, what you expected, and a screenshot.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.1.0/Plato-0.1.0.zip" type="application/octet-stream" length="4548871" sparkle:edSignature="UpRkTEoEOS28kSCd7OfnLMw+ONz+tTlXq67lg52VAXaYEQE61hjMIQZo+3ef/n03uyKOzZ4CWNIqZ+rpE/bHDg=="></enclosure></item></channel></rss><!-- sparkle-signatures:
-edSignature: P/vpzfzEqfUMh9v3DyS3RZSDaQLw1lKT4DXJazrHJ5w/D+tYiJsqzpTIwVtF7BC4tFqOjui2/Fna5mxfTs8cAg==
-length: 8390
+edSignature: PFQnjhKhrg45X1M31/eXeRPtnSbOtp3JrFuDkW+jKlx1MvxobZO6gGTj3c8NXbnQKg3kQ58pGTjansty5634BA==
+length: 9575
 -->
