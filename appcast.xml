@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.3.0</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.3.0</link><sparkle:version>0.3.0</sparkle:version><sparkle:shortVersionString>0.3.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Wed, 05 Aug 2026 18:03:53 -0700</pubDate><description>&lt;h2&gt;Plato 0.3.0&lt;/h2&gt;
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.4.0</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.4.0</link><sparkle:version>0.4.0</sparkle:version><sparkle:shortVersionString>0.4.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Wed, 05 Aug 2026 21:32:39 -0700</pubDate><description>&lt;h2&gt;Plato 0.4.0&lt;/h2&gt;
+
+&lt;p&gt;Plato's written output finally has somewhere to land.&lt;/p&gt;
+
+&lt;h3&gt;What's new&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;The Pad.&lt;/b&gt; Ask Plato to &lt;i&gt;write&lt;/i&gt; something — an email, a
+  message, a note, a write-up — and instead of hearing it read aloud, it
+  lands on the Pad: a new page in Plato's panel that opens itself the moment
+  the draft arrives. Scroll it, select it, edit it by hand, and hit Copy
+  when it's ready. Plato never touches your clipboard and never types into
+  another app — moving the text anywhere is always your own hand.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Revise it by asking.&lt;/b&gt; "Make it shorter", "add a line saying
+  I'll bring the numbers", "change the sign-off" — the draft on the Pad is
+  revised in place, and anything you've edited by hand is preserved
+  exactly. On the voice conversation, a second check now stands behind
+  every turn so an asked-for change reliably lands on the Pad instead of
+  being read back to you.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;The draft survives everything.&lt;/b&gt; One draft at a time, replaced
+  only when you ask for the next one; undo brings the previous one back. It
+  stays through "New conversation", through quitting, and through updates
+  like this one — a draft is your document, not part of the chat.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Explicit routing works too.&lt;/b&gt; Say "put that on the pad" after
+  any answer and it's written down where you can copy it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Permissions, stored keys, and your sign-in all carry over — nothing to
+re-grant or re-enter.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.4.0/Plato-0.4.0.zip" type="application/octet-stream" length="9049752" sparkle:edSignature="/5hiwWgcXLZXu+hy/edHL5+4qZHkIH+c7r/YA3JlPYk4mNHjazGOeiRMYgdDHByEkH3DOAVpU/WLwWbdPYBYCA=="></enclosure></item><item><title>Plato 0.3.0</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.3.0</link><sparkle:version>0.3.0</sparkle:version><sparkle:shortVersionString>0.3.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Wed, 05 Aug 2026 18:03:53 -0700</pubDate><description>&lt;h2&gt;Plato 0.3.0&lt;/h2&gt;
 
 &lt;p&gt;Two ways to talk, and a memory that lasts the whole conversation.&lt;/p&gt;
 
@@ -138,6 +165,6 @@ silently. You never re-download by hand after this first install.&lt;/p&gt;
 
 &lt;h3&gt;Found a bug?&lt;/h3&gt;
 &lt;p&gt;Ping Fahim with what you did, what you expected, and a screenshot.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.1.0/Plato-0.1.0.zip" type="application/octet-stream" length="4548871" sparkle:edSignature="UpRkTEoEOS28kSCd7OfnLMw+ONz+tTlXq67lg52VAXaYEQE61hjMIQZo+3ef/n03uyKOzZ4CWNIqZ+rpE/bHDg=="></enclosure></item></channel></rss><!-- sparkle-signatures:
-edSignature: 2mrgi7VMXKiAuiZLJMULEvGPRW57W6a2YniOPYR4JXNQ+8DEaDmp9CsUn3Uz1IyDs4ms33a85u4eM+8AcGB7Dg==
-length: 12461
+edSignature: 4HvDYp30uImtTeMyrl/rnKMRMKDJo7RC6AE0QiEWEqDmDuUrCkEPZKSij4Qv8zK5ER68Jt96ruRj+vZpxJGnDA==
+length: 14753
 -->
