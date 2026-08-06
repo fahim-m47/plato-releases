@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.4.0</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.4.0</link><sparkle:version>0.4.0</sparkle:version><sparkle:shortVersionString>0.4.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Wed, 05 Aug 2026 21:32:39 -0700</pubDate><description>&lt;h2&gt;Plato 0.4.0&lt;/h2&gt;
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.4.1</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.4.1</link><sparkle:version>0.4.1</sparkle:version><sparkle:shortVersionString>0.4.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Wed, 05 Aug 2026 21:40:09 -0700</pubDate><description>&lt;h2&gt;Plato 0.4.1&lt;/h2&gt;
+
+&lt;p&gt;A small fix so Settings is readable again if your Mac is in Dark Mode.&lt;/p&gt;
+
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;White-on-white controls in Dark Mode.&lt;/b&gt; With macOS set to Dark
+  Mode, the Model and Reasoning pickers, the Fast Mode switch, and the
+  memory sliders drew white text and knobs on Plato's light paper panel —
+  nearly invisible. The panel now always renders its controls in the light
+  appearance it was designed for, whatever your system theme.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Permissions, stored keys, and your sign-in all carry over — nothing to
+re-grant or re-enter.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.4.1/Plato-0.4.1.zip" type="application/octet-stream" length="9055898" sparkle:edSignature="ae9leP9ud6ff47TInTqCdxfEEmVZgWONjLEn6QpIqF59URqXPc+9xJrBygm/WMi1xo5Usv91G3FdQjoQIXj3Cw=="></enclosure></item><item><title>Plato 0.4.0</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.4.0</link><sparkle:version>0.4.0</sparkle:version><sparkle:shortVersionString>0.4.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Wed, 05 Aug 2026 21:32:39 -0700</pubDate><description>&lt;h2&gt;Plato 0.4.0&lt;/h2&gt;
 
 &lt;p&gt;Plato's written output finally has somewhere to land.&lt;/p&gt;
 
@@ -165,6 +179,6 @@ silently. You never re-download by hand after this first install.&lt;/p&gt;
 
 &lt;h3&gt;Found a bug?&lt;/h3&gt;
 &lt;p&gt;Ping Fahim with what you did, what you expected, and a screenshot.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.1.0/Plato-0.1.0.zip" type="application/octet-stream" length="4548871" sparkle:edSignature="UpRkTEoEOS28kSCd7OfnLMw+ONz+tTlXq67lg52VAXaYEQE61hjMIQZo+3ef/n03uyKOzZ4CWNIqZ+rpE/bHDg=="></enclosure></item></channel></rss><!-- sparkle-signatures:
-edSignature: 4HvDYp30uImtTeMyrl/rnKMRMKDJo7RC6AE0QiEWEqDmDuUrCkEPZKSij4Qv8zK5ER68Jt96ruRj+vZpxJGnDA==
-length: 14753
+edSignature: 5XMSUR0zm8ovgIiLFgNis05HchfVrNpoMNMW7h+hVJTlLKYOnpYId+0Z4hNW5yNN6NxlqcHhpULcXDT+9RpmBg==
+length: 16064
 -->
