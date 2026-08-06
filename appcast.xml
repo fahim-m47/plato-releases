@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.2.2</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.2.2</link><sparkle:version>0.2.2</sparkle:version><sparkle:shortVersionString>0.2.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Mon, 03 Aug 2026 18:11:30 -0700</pubDate><description>&lt;h2&gt;Plato 0.2.2&lt;/h2&gt;
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.3.0</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.3.0</link><sparkle:version>0.3.0</sparkle:version><sparkle:shortVersionString>0.3.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Wed, 05 Aug 2026 18:03:53 -0700</pubDate><description>&lt;h2&gt;Plato 0.3.0&lt;/h2&gt;
+
+&lt;p&gt;Two ways to talk, and a memory that lasts the whole conversation.&lt;/p&gt;
+
+&lt;h3&gt;What's new&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;A real voice conversation, with your own OpenAI key.&lt;/b&gt; Add an API
+  key in Settings and Plato listens and speaks natively through OpenAI's
+  realtime models — first words typically arrive in about half a second.
+  Holding push-to-talk now keeps a live conversation open: speak as many
+  turns as you like within one hold, release to close the mic instantly
+  without cutting Plato off, and press again to interrupt. When a question
+  needs depth or the current web, Plato says so naturally, consults a deeper
+  model mid-turn, and answers in the same voice — it can also point at the
+  on-screen thing it's describing.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Signed-in ChatGPT accounts read the reply as it's written.&lt;/b&gt;
+  Speak as before; the reply now streams straight into the caption beside
+  the cursor, word by word — far faster to first word than the old spoken
+  replies, and still billed to your ChatGPT subscription. This release
+  retires the old text-to-speech voice: spoken replies are now exclusive to
+  the API-key voice above.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Faster on every path.&lt;/b&gt; Push-to-talk warms the connection while
+  you're still speaking, replies default to a faster serving lane on models
+  that offer one, and Settings gains a Reasoning selector — exactly the
+  effort levels your account's models actually support.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Plato remembers until it's actually full.&lt;/b&gt; Conversation context
+  no longer expires on a timer — it carries until the model's memory
+  genuinely fills, and then Plato silently hands the conversation to a fresh
+  session and keeps going. A gauge in Settings shows how full the memory is,
+  and a slider lets you choose how full is "full".&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;"New conversation" means it.&lt;/b&gt; One menu item blanks the
+  conversation and Plato's session notes; your durable preferences and
+  sign-in stay.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Permissions, stored keys, and your sign-in all carry over — nothing to
+re-grant or re-enter.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.3.0/Plato-0.3.0.zip" type="application/octet-stream" length="8870466" sparkle:edSignature="p8L4zCeppQp7Zhimyl00s9B1r7Odov3bFS/JRTDtAYuC+hEnXvJZPJ7XM9aYP9ITLGJjFkzBZinxDLwv4P0hCw=="></enclosure></item><item><title>Plato 0.2.2</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.2.2</link><sparkle:version>0.2.2</sparkle:version><sparkle:shortVersionString>0.2.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Mon, 03 Aug 2026 18:11:30 -0700</pubDate><description>&lt;h2&gt;Plato 0.2.2&lt;/h2&gt;
 
 &lt;p&gt;A fix release for the Settings model picker.&lt;/p&gt;
 
@@ -102,6 +138,6 @@ silently. You never re-download by hand after this first install.&lt;/p&gt;
 
 &lt;h3&gt;Found a bug?&lt;/h3&gt;
 &lt;p&gt;Ping Fahim with what you did, what you expected, and a screenshot.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.1.0/Plato-0.1.0.zip" type="application/octet-stream" length="4548871" sparkle:edSignature="UpRkTEoEOS28kSCd7OfnLMw+ONz+tTlXq67lg52VAXaYEQE61hjMIQZo+3ef/n03uyKOzZ4CWNIqZ+rpE/bHDg=="></enclosure></item></channel></rss><!-- sparkle-signatures:
-edSignature: PFQnjhKhrg45X1M31/eXeRPtnSbOtp3JrFuDkW+jKlx1MvxobZO6gGTj3c8NXbnQKg3kQ58pGTjansty5634BA==
-length: 9575
+edSignature: 2mrgi7VMXKiAuiZLJMULEvGPRW57W6a2YniOPYR4JXNQ+8DEaDmp9CsUn3Uz1IyDs4ms33a85u4eM+8AcGB7Dg==
+length: 12461
 -->
