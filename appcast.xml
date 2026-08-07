@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.4.1</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.4.1</link><sparkle:version>0.4.1</sparkle:version><sparkle:shortVersionString>0.4.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Wed, 05 Aug 2026 21:40:09 -0700</pubDate><description>&lt;h2&gt;Plato 0.4.1&lt;/h2&gt;
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.4.2</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.4.2</link><sparkle:version>0.4.2</sparkle:version><sparkle:shortVersionString>0.4.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Thu, 06 Aug 2026 18:26:35 -0700</pubDate><description>&lt;h2&gt;Plato 0.4.2&lt;/h2&gt;
+
+&lt;p&gt;A hardening release: a sweep of small fixes to the voice conversation and
+the overlay, and a tighter app under the hood.&lt;/p&gt;
+
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Voice replies always play in order.&lt;/b&gt; The audio of a spoken reply
+  is now forwarded strictly in sequence, so a busy moment can no longer
+  garble the start of a sentence.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;No stray words from a finished turn.&lt;/b&gt; Caption text arriving late
+  from a previous reply is now dropped instead of slipping into the current
+  one.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Push-to-talk at turn boundaries.&lt;/b&gt; A press landing at exactly the
+  wrong instant around the start or end of a turn could leave the mic state
+  confused; those windows are now guarded.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Crisper overlay after display changes.&lt;/b&gt; The Trailing Cursor and
+  its listening ring redraw correctly after the screen setup changes — a
+  display plugged in or removed, or a resolution switch.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Hardening&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Updates got stricter: an update feed that fails signature validation
+  is rejected immediately, with no grace period.&lt;/li&gt;
+  &lt;li&gt;Test-only plumbing is now compiled out of shipped builds entirely.&lt;/li&gt;
+  &lt;li&gt;The locally downloaded speech-recognition model is verified against
+  pinned checksums before it is ever loaded.&lt;/li&gt;
+  &lt;li&gt;Plato's own telemetry file is readable only by your user account, and
+  shipped builds record reply lengths, never words.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Permissions, stored keys, and your sign-in all carry over — nothing to
+re-grant or re-enter.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.4.2/Plato-0.4.2.zip" type="application/octet-stream" length="8534689" sparkle:edSignature="xNYMXQdgXvCIMYijPBXMEYnIpFgcE5HK0N+ZhyuoUa1kNgqXWzyfcWED/lObbUB02jO/3oJSjKiZJYDrIz7ZCA=="></enclosure></item><item><title>Plato 0.4.1</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.4.1</link><sparkle:version>0.4.1</sparkle:version><sparkle:shortVersionString>0.4.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Wed, 05 Aug 2026 21:40:09 -0700</pubDate><description>&lt;h2&gt;Plato 0.4.1&lt;/h2&gt;
 
 &lt;p&gt;A small fix so Settings is readable again if your Mac is in Dark Mode.&lt;/p&gt;
 
@@ -15,6 +48,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 &lt;p&gt;Permissions, stored keys, and your sign-in all carry over — nothing to
 re-grant or re-enter.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.4.1/Plato-0.4.1.zip" type="application/octet-stream" length="9055898" sparkle:edSignature="ae9leP9ud6ff47TInTqCdxfEEmVZgWONjLEn6QpIqF59URqXPc+9xJrBygm/WMi1xo5Usv91G3FdQjoQIXj3Cw=="></enclosure></item></channel></rss><!-- sparkle-signatures:
-edSignature: 3tw+J6huFX+u3+zhVl6KycYUEUHVcohgQJV4clq9yEXEXrpaI93drOCaVN8u3F+niFMbrFKFfbpNq0sRglWfAQ==
-length: 1870
+edSignature: 80J/4ugIfVF+kmIP8XcJEcK/RwDuHtTVJATy3ellz2iNiTUGKJoYa7qkCo58hXmyt9+0Bi9S8e0ljdwDaAfqBQ==
+length: 4274
 -->
