@@ -33,21 +33,7 @@ the overlay, and a tighter app under the hood.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Permissions, stored keys, and your sign-in all carry over — nothing to
-re-grant or re-enter.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.4.2/Plato-0.4.2.zip" type="application/octet-stream" length="8534689" sparkle:edSignature="xNYMXQdgXvCIMYijPBXMEYnIpFgcE5HK0N+ZhyuoUa1kNgqXWzyfcWED/lObbUB02jO/3oJSjKiZJYDrIz7ZCA=="></enclosure></item><item><title>Plato 0.4.1</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.4.1</link><sparkle:version>0.4.1</sparkle:version><sparkle:shortVersionString>0.4.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Wed, 05 Aug 2026 21:40:09 -0700</pubDate><description>&lt;h2&gt;Plato 0.4.1&lt;/h2&gt;
-
-&lt;p&gt;A small fix so Settings is readable again if your Mac is in Dark Mode.&lt;/p&gt;
-
-&lt;h3&gt;Fixed&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;White-on-white controls in Dark Mode.&lt;/b&gt; With macOS set to Dark
-  Mode, the Model and Reasoning pickers, the Fast Mode switch, and the
-  memory sliders drew white text and knobs on Plato's light paper panel —
-  nearly invisible. The panel now always renders its controls in the light
-  appearance it was designed for, whatever your system theme.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Permissions, stored keys, and your sign-in all carry over — nothing to
-re-grant or re-enter.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.4.1/Plato-0.4.1.zip" type="application/octet-stream" length="9055898" sparkle:edSignature="ae9leP9ud6ff47TInTqCdxfEEmVZgWONjLEn6QpIqF59URqXPc+9xJrBygm/WMi1xo5Usv91G3FdQjoQIXj3Cw=="></enclosure></item></channel></rss><!-- sparkle-signatures:
-edSignature: 80J/4ugIfVF+kmIP8XcJEcK/RwDuHtTVJATy3ellz2iNiTUGKJoYa7qkCo58hXmyt9+0Bi9S8e0ljdwDaAfqBQ==
-length: 4274
+re-grant or re-enter.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.4.2/Plato-0.4.2.zip" type="application/octet-stream" length="8534689" sparkle:edSignature="xNYMXQdgXvCIMYijPBXMEYnIpFgcE5HK0N+ZhyuoUa1kNgqXWzyfcWED/lObbUB02jO/3oJSjKiZJYDrIz7ZCA=="></enclosure></item></channel></rss><!-- sparkle-signatures:
+edSignature: 4K8ZGFC5jXWbbyZwvNrPLGaKSpGz4AVHn3y6Fbp7EhBfzWIZa5e4E6tNVIOsu9bjbypCses9P9SwqYHNFtGvBA==
+length: 2963
 -->
