@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.4.2</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.4.2</link><sparkle:version>0.4.2</sparkle:version><sparkle:shortVersionString>0.4.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Thu, 06 Aug 2026 18:26:35 -0700</pubDate><description>&lt;h2&gt;Plato 0.4.2&lt;/h2&gt;
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Plato Updates</title><link>https://github.com/fahim-m47/plato-releases</link><description>Plato beta update feed</description><language>en</language><item><title>Plato 0.4.3</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.4.3</link><sparkle:version>0.4.3</sparkle:version><sparkle:shortVersionString>0.4.3</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Fri, 09 Oct 2026 22:18:42 -0400</pubDate><description>&lt;h2&gt;Plato 0.4.3&lt;/h2&gt;
+
+&lt;p&gt;A reliability release: fixes for push-to-talk and voice edge cases, a
+tidier panel, and a large internal cleanup.&lt;/p&gt;
+
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;A quick tap can't leave the mic open.&lt;/b&gt; A very short
+  push-to-talk press now always closes the mic, and voice Captions stay in
+  the order they were spoken.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Escape and re-press at the turn boundary.&lt;/b&gt; Pressing Escape or
+  push-to-talk at the moment a turn ends no longer brings back the
+  cancelled turn or its Draft.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;No stuck "writing…".&lt;/b&gt; Interrupting Plato while it writes to the
+  Pad by voice no longer leaves the status showing "writing…" forever.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Long conversations keep rolling.&lt;/b&gt; Releasing push-to-talk while
+  Plato is still connecting no longer stops the Conversation from rolling
+  over to a fresh session later.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;API-key settings stay separate.&lt;/b&gt; On the API-Key Path, Plato no
+  longer sends ChatGPT-only Fast Mode and Reasoning settings, and it
+  forgets the previous account's model list when you change credentials.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Polish&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The panel uses one consistent spacing rhythm, panel-sized Geist
+  buttons that look clearly disabled when unavailable, and less filler
+  text.&lt;/li&gt;
+  &lt;li&gt;Big internal cleanup and new tests around the conversation engine,
+  which makes future fixes safer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Permissions, stored keys, and your sign-in all carry over. You don't need
+to grant or enter anything again.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.4.3/Plato-0.4.3.zip" type="application/octet-stream" length="8638182" sparkle:edSignature="fdLmNInGfpl4z0lXlRGv1urOhkK2qwwrQzDI6WzWyEYV3/g8hgmP44R7PtctQ16ve7Ou+DRBgB8mq21wgA4pCA=="></enclosure></item><item><title>Plato 0.4.2</title><link>https://github.com/fahim-m47/plato-releases/releases/tag/v0.4.2</link><sparkle:version>0.4.2</sparkle:version><sparkle:shortVersionString>0.4.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>14.0.0</sparkle:minimumSystemVersion><pubDate>Thu, 06 Aug 2026 18:26:35 -0700</pubDate><description>&lt;h2&gt;Plato 0.4.2&lt;/h2&gt;
 
 &lt;p&gt;A hardening release: a sweep of small fixes to the voice conversation and
 the overlay, and a tighter app under the hood.&lt;/p&gt;
@@ -34,6 +67,6 @@ the overlay, and a tighter app under the hood.&lt;/p&gt;
 
 &lt;p&gt;Permissions, stored keys, and your sign-in all carry over — nothing to
 re-grant or re-enter.&lt;/p&gt;</description><enclosure url="https://github.com/fahim-m47/plato-releases/releases/download/v0.4.2/Plato-0.4.2.zip" type="application/octet-stream" length="8534689" sparkle:edSignature="xNYMXQdgXvCIMYijPBXMEYnIpFgcE5HK0N+ZhyuoUa1kNgqXWzyfcWED/lObbUB02jO/3oJSjKiZJYDrIz7ZCA=="></enclosure></item></channel></rss><!-- sparkle-signatures:
-edSignature: 4K8ZGFC5jXWbbyZwvNrPLGaKSpGz4AVHn3y6Fbp7EhBfzWIZa5e4E6tNVIOsu9bjbypCses9P9SwqYHNFtGvBA==
-length: 2963
+edSignature: W9NqOgkHyzwuvlVyDthhHb0Rk1u0g5/0di9tCu/iaC0+8F8TYxa7H4feMF2iUfFgtaPq6qkxJeR2W3x+qZYZAA==
+length: 5321
 -->
